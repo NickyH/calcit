@@ -61,10 +61,10 @@ while quit == "no"
       op = gets.chomp
 
       puts "What is the first number?"
-      num1 = gets.chomp.to_i
+      first = gets.chomp.to_i
 
       puts "What is the second number?"
-      num2 = gets.chomp.to_i
+      second = gets.chomp.to_i
 
       case op
         when 'm' #call multiply def
