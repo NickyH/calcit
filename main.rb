@@ -29,16 +29,19 @@ require 'rainbow'
     def square(first)
       power(first, 2)
     end
-   #MortgageCalc
-    def MortgageCalc(p, )
+  #New Functions
+    def mortgage
+    end
 
+    def bmi
+    end
 #Script
   #Introduction
 quit = "no"
 
 while quit == "no"
 
-  print "Type '1' for the basic calculator, type '2' for the advanced calculator. "
+  print "Type '1' for the basic calculator, type '2' for the advanced calculator, type '3' for the mortgage calculator, and type '4' for the BMI calculator. "
   calc_type = gets.chomp
 
   case calc_type
@@ -94,6 +97,11 @@ while quit == "no"
           answer = power(first, second)
           puts answer
       end
+    when "3" #Mortgage calculator
+
+
+
+    when "4" #BMI calculator
 
     else
       print "Please enter a '1' for basic calculator or a '2' for the advanced calculator. "
