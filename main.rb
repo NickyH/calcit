@@ -72,14 +72,14 @@ end
 
     # To see how the code works, uncomment one of the following
     #and then press command b
-    # puts add(1, 2)
+    # puts add(1, 2) => 3
 
-    # puts subtract(1, 3)
+    # puts subtract(1, 3) => -2
 
-    # puts multiply(2, 2)
+    # puts multiply(2, 2) => 4
 
-    # puts divide(6, 2)
+    # puts divide(6, 2) => 3
 
-    # puts power(2, 3)
+    # puts power(2, 3) => 8
 
-    # puts squareroot(4)
+    # puts squareroot(4) => 2
