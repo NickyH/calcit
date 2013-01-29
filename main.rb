@@ -1,3 +1,4 @@
+require 'rainbow'
 
 #Definitions
   #Basic
@@ -28,6 +29,8 @@
     def square(first)
       power(first, 2)
     end
+   #MortgageCalc
+    def MortgageCalc(p, )
 
 #Script
   #Introduction
