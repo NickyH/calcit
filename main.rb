@@ -39,7 +39,7 @@
 
 #Script
   #Introduction
-quit == "no"
+quit = "no"
 
 while quit == "no"
 
