@@ -24,6 +24,10 @@
       Math.sqrt(first)
     end
 
+    def square(first)
+      power(first, 2)
+    end
+
     # The outputs of the functions are the following
     # puts add(1, 2) => 3
 
@@ -37,6 +41,7 @@
 
     # puts squareroot(4) => 2
 
+    # puts square(4)
 #Script
   #Introduction
 quit = "no"
