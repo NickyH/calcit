@@ -62,10 +62,10 @@ while quit == "no"
       second = gets.chomp.to_i
 
       case op
-        when 'm' #call multiply def
-        when 'a' #call add def
-        when 's' #call subtract def
-        when 'd' #call divide def
+        when 'm' multiply(first, second)
+        when 'a' add(first, second)
+        when 's' subtract(first, second)
+        when 'd' divide(first, second)
       end
 
 
