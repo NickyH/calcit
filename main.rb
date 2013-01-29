@@ -1,10 +1,57 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
+=======
+#Definitions
+  #Basic
+    def add(first, second)
+      first + second
+    end
+
+    def subtract(first, second)
+      first - second
+    end
+
+    def multiply(first, second)
+      first*second
+    end
+
+    def divide(first, second)
+      first/second
+    end
+  #Advanced
+    def power(first, second)
+      first**second
+    end
+
+    def squareroot(first)
+      Math.sqrt(first)
+    end
+
+    def square(first)
+      power(first, 2)
+    end
+
+    # The outputs of the functions are the following
+    # puts add(1, 2) => 3
+
+    # puts subtract(1, 3) => -2
+
+    # puts multiply(2, 2) => 4
+
+    # puts divide(6, 2) => 3
+
+    # puts power(2, 3) => 8
+
+    # puts squareroot(4) => 2
+
+    # puts square(4)
+>>>>>>> 2fb3ccc1ae426bc60c9f1809c687e42e3407c0d4
 #Script
   #Introduction
-quit == "no"
+quit = "no"
 
 while quit == "no"
 
@@ -21,16 +68,16 @@ while quit == "no"
       op = gets.chomp
 
       puts "What is the first number?"
-      num1 = gets.chomp.to_i
+      first = gets.chomp.to_i
 
       puts "What is the second number?"
-      num2 = gets.chomp.to_i
+      second = gets.chomp.to_i
 
       case op
-        when 'm' #call multiply def
-        when 'a' #call add def
-        when 's' #call subtract def
-        when 'd' #call divide def
+        when 'm' multiply(first, second)
+        when 'a' add(first, second)
+        when 's' subtract(first, second)
+        when 'd' divide(first, second)
       end
 
 
@@ -68,43 +115,11 @@ while quit == "no"
   quit = gets.chomp
 end
 
-#Definitions
-  #Basic
-    def add(first, second)
-      first + second
-    end
 
-    def subtract(first, second)
-      first - second
-    end
 
-    def multiply(first, second)
-      first*second
-    end
 
-    def divide(first, second)
-      first/second
-    end
-  #Advanced
-    def power(first, second)
-      first**second
-    end
-
-    def squareroot(first)
-      Math.sqrt(first)
-    end
-
-    # To see how the code works, uncomment one of the following
-    #and then press command b
-    # puts add(1, 2)
-
-    # puts subtract(1, 3)
-
-    # puts multiply(2, 2)
-
-    # puts divide(6, 2)
-
-    # puts power(2, 3)
-
+<<<<<<< HEAD
     # puts squareroot(4)
 >>>>>>> 4d51a65722b82aa00e2eae85b6a3bf5997da6c00
+=======
+>>>>>>> 2fb3ccc1ae426bc60c9f1809c687e42e3407c0d4
